@@ -4,9 +4,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import PassiveAggressiveClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from flask import Flask, request
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 from flask import jsonify
 
 app = Flask(__name__)
