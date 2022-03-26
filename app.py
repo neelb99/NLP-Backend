@@ -1,7 +1,6 @@
 from urllib import request
 import numpy as np
 import pandas as pd
-import itertools
 import seaborn as sn
 import pandas as pd
 import matplotlib.pyplot as plt
